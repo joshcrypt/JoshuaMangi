@@ -1,0 +1,63 @@
+body {
+  font: 100% Helvetica, sans-serif;
+}
+.headercontainer{
+  background-color:black;
+  margin: 0 auto;
+  text-align: center;
+  padding:  2em;
+  overflow: hidden;
+  width: 100%;
+  display: block
+}
+.headercontainer img{
+  border-radius: 50%;
+}
+.headercontainer h4{
+  color: rgb(133, 131, 131);
+  font-size: 1.5em;
+}
+.headercontainer i{
+  color: rgb(84, 216, 84);
+  font-size: 2em;
+}
+.headernav{
+  width: 33.33%;
+  max-width: 360px;
+  height: 60px;
+  position: relative;
+  display: block;
+  padding: 0;
+  list-style: none;
+  margin: .9em auto 0 auto;
+}
+ul{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.headernav-left{
+  left: -100%;
+}
+.headernav-right{
+  left: 140%;
+}
+.headernav-current{
+  left: 30%;
+}
+.headernav li{
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.headernav a{
+  font-size: 2.0em;
+  color: darkslategrey;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: -3px;
+}
+/*# sourceMa
+ppingURL=main.css.map */
